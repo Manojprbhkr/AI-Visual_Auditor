@@ -15,19 +15,8 @@ with col1:
 with col2:
     staging = st.text_input("Staging URL (Destination Optimizely)", placeholder="https://")
 
-# --- DYNAMIC NETWORK RESOLUTION ---
-def get_codespace_backend_url():
-    """
-    Automatically builds the correct public proxy address inside GitHub Codespaces.
-    Falls back to localhost if running on a standard developer computer.
-    """
-    codespace_name = os.environ.get("CODESPACE_NAME")
-    if codespace_name:
-        # Reconstructs the exact public HTTPS proxy routing path built by GitHub
-        return f"https://{codespace_name}-8000.app.github.dev/compare"
-    return "http://127.0.0"
-
-BACKEND_URL = get_codespace_backend_url()
+ 
+BACKEND_URL = "https://ai-visual-auditor.onrender.com/compare"
 
 if st.button("🚀 Run Audit", type="primary"):
     if not (source and staging):
