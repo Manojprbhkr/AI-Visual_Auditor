@@ -6,14 +6,14 @@ import os
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="Site Migration Auditor", layout="wide")
 st.title("🌐 Enterprise Site Migration Auditor")
-st.caption("Built for Core Visitor Portal Website Migration")
+st.caption("Built for Visual Testing on As-IS Website Migration")
 
 # --- UI INPUTS ---
 col1, col2 = st.columns(2)
 with col1:
-    source = st.text_input("Source URL (Live Ektron)", placeholder="https://")
+    source = st.text_input("Source URL", placeholder="https://")
 with col2:
-    staging = st.text_input("Staging URL (Destination Optimizely)", placeholder="https://")
+    staging = st.text_input("Staging URL", placeholder="https://")
 
  
 BACKEND_URL = "https://ai-visual-auditor.onrender.com/compare"
