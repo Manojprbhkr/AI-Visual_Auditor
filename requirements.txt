@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+openpyxl
+pillow
+streamlit
+requests
+playwright
