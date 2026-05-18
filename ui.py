@@ -16,7 +16,7 @@ with col2:
     staging = st.text_input("Staging URL", placeholder="https://")
 
  
-BACKEND_URL = "https://ai-visual-auditor.onrender.com/compare"
+BACKEND_URL = "https://manojprabhakar-ai-visual-auditor.hf.space/compare"
 
 if st.button("🚀 Run Audit", type="primary"):
     if not (source and staging):
