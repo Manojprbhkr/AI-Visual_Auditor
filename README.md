@@ -1,6 +1,8 @@
 # AI-Visual_Auditor
 # 🔍 AI-Powered Visual & Structural Site Migration Auditor
 
+🌐 [Click Here to Launch the Live Web App](https://ai-visualauditor.streamlit.app)
+
 An automated enterprise-grade site migration audit utility designed to cross-examine and pinpoint differences between legacy platforms (e.g., Ektron) and modern digital experience environments (e.g., Optimizely). It maps layout deviations, detects text drift, and catalogs image anomalies across fully responsive device viewports.
 
 ---
